@@ -1,10 +1,6 @@
+import { HeaderContainer, HeaderContent, Headertexts } from './styles'
+
 import logo from '../../assets/logo.svg'
-import {
-  Calculator,
-  HeaderContainer,
-  HeaderContent,
-  Headertexts,
-} from './styles'
 
 export function Header() {
   return (
@@ -22,8 +18,6 @@ export function Header() {
           </p>
         </Headertexts>
       </HeaderContent>
-
-      <Calculator></Calculator>
     </HeaderContainer>
   )
 }
